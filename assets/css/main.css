@@ -2186,6 +2186,7 @@
 /* Box */
 
 	.box {
+		border: 0px;
 		background: #fff;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
