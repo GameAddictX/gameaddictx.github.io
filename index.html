@@ -37,55 +37,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body class="landing">
-<style>
-	.fullscreen-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-}
 
-.fullscreen-bg__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    width: 300%;
-    left: -100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
-
-  .fullscreen-bg__video {
-    display: none;
-  }
-}
-	</style>
-		<div class="fullscreen-bg">
-                <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-                <source src="videos/GameAddictX2_x264.mp4" type="video/mp4">
-                </video>
-                </div>
-		
 		<div id="page-wrapper">
 
 			<!-- Header -->
